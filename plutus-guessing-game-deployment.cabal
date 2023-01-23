@@ -1,0 +1,19 @@
+cabal-version:      3.0
+name:               plutus-guessing-game-deployment
+synopsis:           Genererate deployment information for the IOG Plutus Guessing Game 
+version:            0.1.0.0
+license:            NONE
+author:             Dirk Dühr
+maintainer:         dirk@duehr.de
+
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+executable plutus-guessing-game
+    main-is:          Main.hs
+    build-depends:
+        base >=4.9 && <5,
+        plutus-use-cases -any
+    hs-source-dirs:   app
+    default-language: Haskell2010
