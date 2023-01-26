@@ -39,7 +39,7 @@ cabal update
 cabal build
 ```
 
-See the file [cabal.project](https://github.com/dduehr/plutus-guessing-game-deployment/cabal.project#L99) to optionally configure the dependency
+See the file [cabal.project](https://github.com/dduehr/plutus-guessing-game-deployment/blob/master/cabal.project#L27) to optionally configure the dependency
 of this project to the tag or commit hash of the `plutus-apps` repository.
 
 ## Run
@@ -47,7 +47,7 @@ of this project to the tag or commit hash of the `plutus-apps` repository.
 Run the application to create the address and CBOR representation of the IOG guessing game:
 
 Optionally change the customization address for the IOG Guessing Game, it's start time and network id (e.g. preview or pre-production testnet),
-as defined in the source file [Main.hs](https://github.com/dduehr/plutus-guessing-game-deployment/app/Main.hs#L52) beforehand.
+as defined in the source file [Main.hs](https://github.com/dduehr/plutus-guessing-game-deployment/blob/master/app/Main.hs#L52) beforehand.
 
 ```
 cabal run
