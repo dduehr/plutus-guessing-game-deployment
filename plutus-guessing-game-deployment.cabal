@@ -14,6 +14,23 @@ executable plutus-guessing-game
     main-is:          Main.hs
     build-depends:
         base >=4.9 && <5,
-        plutus-use-cases -any
+        bytestring,
+        cardano-api,
+        cardano-binary,
+        cardano-ledger-core,
+        directory,
+        plutus-ledger,
+        plutus-ledger-api,
+        plutus-tx,
+        plutus-script-utils,
+        plutus-use-cases,
+        serialise,
+        text,
+        time,
+        utf8-string
+
     hs-source-dirs:   app
     default-language: Haskell2010
+
+ghc-options: 
+    -Wall

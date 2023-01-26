@@ -20,6 +20,7 @@ packages: .
 -- 'tasty' output.
 test-show-details: direct
 
+-- Direct dependency
 source-repository-package
     type: git
     location: https://github.com/input-output-hk/plutus-apps
